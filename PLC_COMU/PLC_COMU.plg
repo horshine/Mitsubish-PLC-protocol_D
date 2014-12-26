@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PLC_COMU - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/PLC_COMU.res" /d "_DEBUG" /d "_AFXDLL" "D:\code text\项目程序\PLC_COMU\PLC_COMU.rc"" 
+Creating temporary file "C:\DOCUME~1\rd64\LOCALS~1\Temp\RSP234.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PLC_COMU.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code text\项目程序\PLC_COMU\PLC_COMUDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rd64\LOCALS~1\Temp\RSP234.tmp" 
+Creating temporary file "C:\DOCUME~1\rd64\LOCALS~1\Temp\RSP235.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/PLC_COMU.pdb" /debug /machine:I386 /out:"Debug/PLC_COMU.exe" /pdbtype:sept 
+".\Debug\BCMenu.obj"
+".\Debug\BtnST.obj"
+".\Debug\DigitalClock.obj"
+".\Debug\mscomm.obj"
+".\Debug\PLC_COMU.obj"
+".\Debug\PLC_COMUDlg.obj"
+".\Debug\PLC_Dapk.obj"
+".\Debug\StdAfx.obj"
+".\Debug\PLC_COMU.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\rd64\LOCALS~1\Temp\RSP235.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+PLC_COMUDlg.cpp
+D:\code text\项目程序\PLC_COMU\PLC_COMUDlg.cpp(777) : warning C4715: 'CPLC_COMUDlg::Check_InputNumb' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+PLC_COMU.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
