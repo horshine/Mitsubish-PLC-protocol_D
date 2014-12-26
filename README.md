@@ -8,3 +8,4 @@ if you just interested at the protocol of mitsubishi  serial communication , you
 
 it was an old project which when i started my development career . 
 not perfect , but works , i hope this project could help those who wanna communicate with Mitsubishi PLC 
+  
